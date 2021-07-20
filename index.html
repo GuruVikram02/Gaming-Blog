@@ -8,7 +8,6 @@
 
 </head>
 <style>
-    
     body {
         color: black;
 
@@ -42,15 +41,37 @@
         padding: 50px;
 
     }
-    .content{
+
+    .content {
         justify-content: left;
 
     }
-    .nav{
+
+    .nav {
         color: white;
     }
-    *{
+
+    * {
         color: white;
+    }
+
+    @media(max-width:1000px) {
+        * {
+            font-weight: 100px;
+            font-size: small;   
+        }
+
+        #align-content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+
+        }
+        h1{
+            background-color: black;
+        }
+
     }
 </style>
 
@@ -59,28 +80,30 @@
 <body class="lead bg-dark">
     <nav class="navbar navbar-dark bg-dark nav fixed-top">
         Vikram-Blogs
-      </nav>
+    </nav>
     <div class="container">
         <h1 class="display-2 text-center bg-danger"><STRONG><B>PROTOTYPE-2</B></STRONG></h1>
         <h2><b>Let start this blog with PROTOTYPE-2 Game trailer</b></h2>
         <figure class="figure">
             <a href="https://youtu.be/-X0DfqkXeU8" target="_blank">
                 <img src="https://wallpapercave.com/wp/wp3398980.jpg" class="figure-img img-fluid rounded" alt="...">
-                </a>
+            </a>
             <figcaption class="figure-caption">Click the image to watch game trailer</figcaption>
-          </figure>
-        <div class="container pt-0 pb-0 content col-4 align-end">
-        <h2>Content</h2>
-        <strong>
-            <ol>
-                <li><a href="#intro">Introduction</a></li>
-                <li><a href="#info">Basic Info</a></li>
-                <li><a href="#plot">Game Plot/Theme</a></li>
-                <li><a href="#ref">Reference</a></li>
+        </figure>
+        <div class="container pt-0 pb-0 content col-4" id="align-content">
+            <h2>Content</h2>
+            <section class="container">
+                <strong>
+                    <ol>
+                        <li><a href="#intro">Introduction</a></li>
+                        <li><a href="#info">Basic Info</a></li>
+                        <li><a href="#plot">Game Plot/Theme</a></li>
+                        <li><a href="#ref">Reference</a></li>
 
-            </ol>
-        </strong>
-    </div>
+                    </ol>
+                </strong>
+            </section>
+        </div>
         <div>
             <a id="intro"></a>
             <h2>INTRODUCTION</h2>
@@ -108,8 +131,8 @@
                     time,
                     its sales would eventually result in the downsizing of its developer.</i></strong><br>
         </div>
-        <img src="https://s1.gaming-cdn.com/images/products/138/screenshot/prototype-2-wallpaper-1.jpg" class="img-fluid" width="400"
-            height="500%" <a id="info"></a>
+        <img src="https://s1.gaming-cdn.com/images/products/138/screenshot/prototype-2-wallpaper-1.jpg"
+            class="img-fluid" width="400" height="500%" <a id="info"></a>
         <h2 class="">Basic Info</h2>
         <div>
             <strong><i>
